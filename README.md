@@ -1,2 +1,2 @@
 # SPAR_MAD
-A group repo for my SPAR 2025 cohort
+A group repo for SPAR 2025 investigations into latent-space anomaly / OOD detection in LLMs 
