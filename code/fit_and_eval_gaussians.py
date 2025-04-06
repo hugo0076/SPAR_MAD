@@ -132,8 +132,7 @@ def get_last_token_activations(model, tokenizer, dataset, batch_size=16, num_exa
         inputs = tokenizer(
             messages_formatted,
             return_tensors="pt",
-            padding=True,
-            truncation=True,)
+        )
         
         # Move inputs to the same device as model
         device = next(model.parameters()).device
